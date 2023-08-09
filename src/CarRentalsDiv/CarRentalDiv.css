@@ -1,0 +1,148 @@
+.thecarrentaldiv{
+    width: 100%;
+    height: 80vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.carbusdiv{
+    width: 50%;
+    height: 10%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.carbustext{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00B4D8;
+}
+.modeltext{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00B4D8;
+}
+.carbusinputdiv{
+    width: 100%;
+    height: 15%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11); */
+}
+.inputone{
+    width: 35%;
+    height: 60%;
+    border: none;
+   outline: none;
+   box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+}
+.inputtwo{
+    width: 35%;
+    height: 60%;
+    border: none;
+   outline: none;
+   box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+}
+.seatdiv{
+    width: 50%;
+    height: 10%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.Seattext{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00B4D8;
+}
+.Daystext{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00B4D8;
+}
+.seatinputdiv{
+    width: 100%;
+    height: 15%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11); */
+}
+.inputthree{
+    width: 35%;
+    height: 60%;
+    border: none;
+   outline: none;
+   box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+}
+.inputfour{
+    width: 35%;
+    height: 60%;
+    border: none;
+   outline: none;
+   box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+}
+.rangediv{
+    width: 100%;
+    height: 10%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Pricerangetext{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00B4D8;
+    margin-left: 20%;
+}
+.rangeinputdiv{
+    width: 100%;
+    height: 15%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11); */
+    
+}
+.inputfive{
+    width: 35%;
+    height: 60%;
+    border: none;
+   outline: none;
+   margin-left: 10%;
+   box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+}
+.spaceee{
+    width: 100%;
+    height: 15%;
+    /* background-color: purple; */
+}
+.thecarrentalbutton{
+    width: 50%;
+    height: 10%;
+    /* background-color: green; */
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.thesearchbutton{
+    width: 30%;
+    height: 80%;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+}

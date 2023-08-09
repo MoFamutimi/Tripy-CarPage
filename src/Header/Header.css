@@ -1,0 +1,78 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; */
+    box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+  }
+  .headerlogo{
+    width: 30%;
+    height: 100%;
+    /* background-color: pink; */
+  }
+  .logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .headernamesprofile{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+  }
+  .headernames{
+    width: 60%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: row; 
+    gap: 60px;
+  }
+  .headerprofile{
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headernames ul {
+    list-style: none; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+  }
+  .headernames ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 350ms ease-in;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #00B4D8;
+  }
+  .smallcircle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white; 
+    border: 2px solid #00B4D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .usertext{
+    color: #00B4D8;
+  }

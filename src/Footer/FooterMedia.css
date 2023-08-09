@@ -1,0 +1,159 @@
+@media only screen and (min-width: 320px) and (max-width:580px){
+    .Footerdiv{
+        width: 100%;
+        height: 70vh;
+        /* background-color: blueviolet; */
+        background-image: url(../assets/footer.png);
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-items: flex-end;
+        top: 0;
+        bottom: 0;
+      }
+      .footerwrapper{
+        width: 100%;
+        height: 80%;
+        /* background-color: #03045E; */
+        position: absolute;
+        /* top: 0; */
+        left:0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+      .footerlogodiv{
+        width: 90%;
+        height: 20%;
+        /* background-color: aqua; */
+        display: flex;
+      }
+      .thefooterlogo{
+        width: 15%;
+        height: 100%;
+        /* background-color: brown; */
+        background-image: url(../assets/logobgremover.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .thefootname{
+        font-size: 20px;
+        color: #00B4D8;
+        font-family: sans-serif;
+      }
+      .wordsfooter{
+        color: white;
+        font-size: 12px;
+        font-family: sans-serif;
+      }
+      .firstfoot{
+        width: 40%;
+        height: 100%;
+        /* background-color: brown; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .wordsfooter22{
+        color: white;
+        font-size: 11px;
+        font-family: sans-serif;
+      }
+      .secondfoot ul li{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-size: 11px;
+        font-family: sans-serif;
+        color: white;
+      }
+      .linetext{
+        color: white;
+        font-size: 11px;
+        font-family: sans-serif;
+        margin-left: 25%;
+        margin-right: 18%;
+        text-align: center;
+      }
+}
+
+
+
+@media only screen and (min-width: 580px) and (max-width:1024px){
+    .Footerdiv{
+        width: 100%;
+        height: 80vh;
+        /* background-color: blueviolet; */
+        background-image: url(../assets/footer.png);
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-items: flex-end;
+        top: 0;
+        bottom: 0;
+      }
+      .footerwrapper{
+        width: 100%;
+        height: 80%;
+        /* background-color: #03045E; */
+        position: absolute;
+        /* top: 0; */
+        left:0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+      .footerlogodiv{
+        width: 90%;
+        height: 25%;
+        /* background-color: aqua; */
+        display: flex;
+      }
+      .thefooterlogo{
+        width: 15%;
+        height: 100%;
+        /* background-color: brown; */
+        background-image: url(../assets/logobgremover.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .thefootname{
+        font-size: 25px;
+        color: #00B4D8;
+        font-family: sans-serif;
+      }
+      .wordsfooter{
+        color: white;
+        font-size: 13px;
+        font-family: sans-serif;
+      }
+      .secondfoot ul li{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-size: 14px;
+        font-family: sans-serif;
+        color: white;
+      }
+      .linetext{
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-left: 25%;
+        margin-right: 18%;
+        text-align: center;
+      }
+}
